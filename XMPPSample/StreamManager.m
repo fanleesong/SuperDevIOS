@@ -62,7 +62,7 @@ static StreamManager *instance = nil;
     //重置通道管理对象
     [self _resetStream];
     //设置通道管理对象的主播方
-    name = [name stringByAppendingString:@"@lin.local"];
+    name = [name stringByAppendingString:@"@leesonpro.local"];
     self.xmppStream.myJID = [XMPPJID jidWithString:name];
     self.loginPwd = password;
     //链接通道管理对象到服务器
@@ -74,7 +74,7 @@ static StreamManager *instance = nil;
     //重置通道管理对象
     [self _resetStream];
     //设置通道管理对象的主播方
-    name = [name stringByAppendingString:@"@lin.local"];
+    name = [name stringByAppendingString:@"@leesonpro.local"];
     self.xmppStream.myJID = [XMPPJID jidWithString:name];
     self.registPwd = password;
     //链接通道管理对象到服务器
@@ -118,6 +118,17 @@ static StreamManager *instance = nil;
 }
 -(void)xmppStreamDidAuthenticate:(XMPPStream *)sender{
     NSLog(@"%s",__FUNCTION__);
+    
+    //验证成功之后要发送自己上线的状态
+    XMPPPresence *presence = [XMPPPresence presenceWithType:@"aviliable"];
+    [self.xmppStream sendElement:presence];
+    //发送消息
+    XMPPMessage *message = [[XMPPMessage alloc] initWithType:@"chat" to:[XMPPJID jidWithString:@"222222@leesonpro"]];
+    //添加消息内容
+    [message addBody:@"hahahahha"];
+    //使用通道管理工具对象发送消息
+    [self.xmppStream sendElement:message];
+    
 }
 -(void)xmppStream:(XMPPStream *)sender didNotAuthenticate:(DDXMLElement *)error{
 
@@ -131,7 +142,15 @@ static StreamManager *instance = nil;
     NSLog(@"%@",error.XMLString);
     
 }
+-(void)xmppStream:(XMPPStream *)sender didReceiveMessage:(XMPPMessage *)message{
 
+
+    NSLog(@"%@",message.from);
+    NSLog(@"%@",message.to);
+    NSLog(@"%@",message.body);
+
+
+}
 
 -(instancetype)init{
 

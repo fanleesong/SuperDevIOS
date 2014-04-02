@@ -1,0 +1,169 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import<QuartzCore/QuartzCore.h>
+#endif
+
+
+//安全释放
+#define RELEASE_SAFETY(__TYPE__) do{[__TYPE__ release], __TYPE__ = nil;}while(0)
+
+//获取设备的物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//获取设备的物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+
+//获取设备版本
+#define DEVICE_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
+//个人空间中修改用户头像
+#define kChangeUserAvatarByNotification @"kChangeUserAvatarByNotification"
+
+
+//土豆开放平台
+#define kAppKey @"33b2e6eb944a6449"
+#define kAppSecret @"f9ae8be7d19db8409f431ee084eaf31e"
+#define kAppRedirectURI @"http://open.tudou.com/apps"
+//关键字
+#define kKeyWord @"爱土豆"
+//视频编码
+#define kItemCodes @"kbPzDzCIeBE"
+//频道id
+#define kChannelId 99
+
+
+//土豆开放平台相关API
+//视频搜索
+#define kTUDO_VIDEO_SEARCH_URL(__kKeyWord__) [NSString stringWithFormat:@"%@%@%@%@%@",@"http://api.tudou.com/v6/video/search?app_key=",kAppKey,@"&format=json&kw=",__kKeyWord__,@"&pageNo=1&pageSize=20&orderBy=createTime"];
+
+//视频信息
+#define kTUDO_VIDEO_INFO_URL(__kItemCodes__) [NSString stringWithFormat:@"%@%@%@%@",@"http://api.tudou.com/v6/video/info?app_key=",kAppKey,@"&format=json&itemCodes=",__kItemCodes__];
+
+//视频排行榜
+#define kTUDO_VIDEO_TOPLIST_URL(__kChannelId__,__PAGENO__,__PAGESIZE__) [NSString stringWithFormat:@"%@%@%@%d%@%d%@%d%@",@"http://api.tudou.com/v6/video/top_list?app_key=",kAppKey,@"&format=json&channelId=",__kChannelId__,@"&pageNo=",__PAGENO__,@"&pageSize=",__PAGESIZE__,@"&orderBy=t"];
+
+//视频状态
+#define kTUDO_VIDEO_STATUS_URL(__kItemCodes__) [NSString stringWithFormat:@"%@%@%@%@",@"http://api.tudou.com/v6/video/status?app_key=",kAppKey,@"&format=json&itemCodes=",__kItemCodes__];
+
+//视频评论
+#define kTUDO_VIDEO_COMMENTLIST_URL(__kItemCodes__) [NSString stringWithFormat:@"%@%@%@%@%@",@"http://api.tudou.com/v6/video/comment_list?app_key=",kAppKey,@"&format=json&itemCode=",__kItemCodes__,@"&getType=getCmt&pageNo=1&pageSize=20"];
+
+
+//用户登录信息获取
+#define kTUDO_AUTHORIZE_INFO [NSString stringWithFormat:@"%@%@%@",@"https://api.tudou.com/oauth2/authorize?client_id=",kAppKey,@"&redirect_uri=http://www.tudou.com"];
+//用户信息
+#define kTUDO_AUTHORIZE_USERINFO(__EMAIL__) [NSString stringWithFormat:@"%@%@%@%@",@"http://api.tudou.com/v6/user/info?app_key=",kAppKey,@"&format=json&user=",__EMAIL__];
+
+//请求授权
+#define kTUDO_AUTHORIZE_REQUEST [NSString stringWithFormat:@"%@%@%@%@",@"https://api.tudou.com/oauth2/authorize?client_id=",kAppKey,@"&redirect_uri=",kAppRedirectURI];
+//获取用户授权过的access_token
+#define kTUDO_AUTHORIZE_ACCESS_TOKEN(__CODE__) [NSString stringWithFormat:@"%@%@%@%@%@%@",@"https://api.tudou.com/oauth2/access_token?code=",__CODE__,@"&client_id=",kAppKey,@"&client_secret=",kAppSecret];
+
+//获取access_token信息
+#define kTUDO_AUTHORIZE_ACCESS_RESPONSE(__ACCESS_TOKEN__) [NSString stringWithFormat:@"%@%@",@"https://api.tudou.com/oauth2/get_token_info?access_toke=",__ACCESS_TOKEN__];
+
+//销毁授权
+#define kTUDO_AUTHORIZE_DESTROY_ACCESS(__ACCESS_TOKEN__)  [NSString stringWithFormat:@"%@%@",@"https://api.tudou.com/oauth2/revoke_access_token?access_toke=",__ACCESS_TOKEN__];
+
+
+#define kTUDO_USERLOGINURL @"http://login.tudou.com/login.do?noreg=ok";
+#define kTUDO_USERREGISTURL @"http://login.tudou.com/reg.do";
+
+//频道ID枚举
+typedef enum channel{
+    
+    CHANNEL_ENTERTANMENTS = 1,//娱乐
+    CHANNEL_HAPPYLIFES = 3,//乐活
+    CHANNEL_MAKEFUNS = 5,//搞笑
+    CHANNEL_ANIMATIONSARTS = 9,//动画
+    CHANNEL_GAMES = 10,//游戏
+    CHANNEL_MUSICS = 14,//音乐
+    CHANNEL_PHYSICS = 15,//体育
+    CHANNEL_UNIVERSALS = 21,//科技
+    CHANNEL_MOVIES = 22,//影视
+    CHANNEL_RICHERS = 24,//财富
+    CHANNEL_EDUCATOINS = 25,//教育
+    CHANNEL_CARSMOTIONS = 26,//汽车
+    CHANNEL_WOMEN =27,//女性
+    CHANNEL_RECORDS = 28,//记录片
+    CHANNEL_HOTNEWS = 29,//热点新闻
+    CHANNEL_TELEVISIONS = 30,//电视剧
+    CHANNEL_COMMONARTS = 31,//综艺
+    CHANNEL_CUSTOMSTYLE = 32,//风尚
+    CHANNEL_ORIGINCREATE = 99,//原创
+    
+}channelLeadToSection;
+
+//频道关键字
+#define KEYWORD_CHANNEL_ENTERTANMENTS @"娱乐"//娱乐
+#define KEYWORD_CHANNEL_HAPPYLIFES  @"乐活"//乐活
+#define KEYWORD_CHANNEL_MAKEFUNS @"搞笑"//搞笑
+#define KEYWORD_CHANNEL_ANIMATIONSARTS @"动画"//动画
+#define KEYWORD_CHANNEL_GAMES @"游戏"//游戏
+#define KEYWORD_CHANNEL_MUSICS @"音乐"//音乐
+#define KEYWORD_CHANNEL_PHYSICS @"体育"//体育
+#define KEYWORD_CHANNEL_UNIVERSALS @"科技"//科技
+#define KEYWORD_CHANNEL_MOVIES @"电影"//影视
+#define KEYWORD_CHANNEL_RICHERS @"财富"//财富
+#define KEYWORD_CHANNEL_EDUCATOINS @"教育"//教育
+#define KEYWORD_CHANNEL_CARSMOTIONS @"汽车"//汽车
+#define KEYWORD_CHANNEL_WOMEN @"女性"//女性
+#define KEYWORD_CHANNEL_RECORDS @"记录片"//记录片
+#define KEYWORD_CHANNEL_HOTNEWS @"热点"//热点新闻
+#define KEYWORD_CHANNEL_TELEVISIONS @"电视剧"//电视剧
+#define KEYWORD_CHANNEL_COMMONARTS @"综艺"//综艺
+#define KEYWORD_CHANNEL_CUSTOMSTYLE @"风尚"//风尚
+#define KEYWORD_CHANNEL_ORIGINCREATE @"原创"//原创
+#define KEYWORD_CHANNEL_WRONGFLAG @"错误"//原创
+
+//我的空间cell的文字
+#define PROFILE_LOOKOVER @"我看过的"
+#define PROFILE_MYCACHCE @"我的缓存"
+#define PROFILE_APPRECOMMENT @"应用推荐"
+#define PROFILE_MYCOLLECT @"我的收藏"
+#define PROFILE_MYATTETION @"我的关注"
+#define PROFILE_MYUPLOAD @"我的上传"
+
+//土豆网分类频道API
+#define kTUDO_CHANNEL_ENTERTANMENTS_URLSTRING @"http://ent.tudou.com";//娱乐
+#define kTUDO_CHANNEL_HAPPYLIFES_URLSTRING @"http://life.tudou.com";//乐活
+#define kTUDO_CHANNEL_MAKEFUNS_URLSTRING @"http://fun.tudou.com";//搞笑
+#define kTUDO_CHANNEL_CARTOON_URLSTRING @"http://cartoon.tudou.com/";//动漫
+#define kTUDO_CHANNEL_GAMES_URLSTRING @"http://game.tudou.com";//游戏
+#define kTUDO_CHANNEL_MUSIC_URLSTRING @"http://music.tudou.com";//音乐
+#define kTUDO_CHANNEL_SPORT_URLSTRING @"http://sports.tudou.com";//体育
+#define kTUDO_CHANNEL_UNIVERSALS_URLSTRING @"http://it.tudou.com";//科技
+#define kTUDO_CHANNEL_MOVIES_URLSTRING @"http://movie.tudou.com";//电影
+#define kTUDO_CHANNEL_EDUCATION_URLSTRING @"http://edu.tudou.com";//教育
+#define kTUDO_CHANNEL_CARSMTIONS_URLSTRING @"http://auto.tudou.com";//汽车
+#define kTUDO_CHANNEL_RECORD_URLSTRING @"http://jilupian.tudou.com";//记录片
+#define kTUDO_CHANNEL_HOTNEWS_URLSTRING @"http://news.tudou.com";//热点
+#define kTUDO_CHANNEL_TELEVISION_URLSTRING @"http://tv.tudou.com";//电视剧
+#define kTUDO_CHANNEL_COMMONARTS_URLSTRING @"http://zy.tudou.com";//综艺
+#define kTUDO_CHANNEL_FASHION_URLSTRING @"http://fashion.tudou.com";//时尚
+#define kTUDO_CHANNEL_ORIGINCREATE_URLSTRING @"http://imake.tudou.com";//原创
+#define kTUDO_CHANNEL_HEALTH_URLSTRING @"http://health.tudou.com";//健康
+
+
+
+
+
+
+
+
+
+
