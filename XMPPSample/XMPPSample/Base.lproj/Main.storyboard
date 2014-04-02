@@ -46,12 +46,70 @@
                                 <segue destination="TGA-Y3-bmk" kind="modal" id="bZW-wj-hNp"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="登陆" id="CjW-O9-nsq"/>
+                        <barButtonItem key="rightBarButtonItem" title="登陆" id="CjW-O9-nsq">
+                            <connections>
+                                <segue destination="rRt-tl-PpH" kind="modal" id="oz4-jt-Lwh"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSS-c7-gek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="235" y="-53"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="cmA-Rs-gZc">
+            <objects>
+                <viewController id="rRt-tl-PpH" customClass="loginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0ZX-SZ-LkY"/>
+                        <viewControllerLayoutGuide type="bottom" id="woe-Ir-jVL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0V5-GF-LVS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pHV-Vb-Crp">
+                                <rect key="frame" x="20" y="200" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OPa-Mn-n45">
+                                <rect key="frame" x="20" y="282" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KqO-Gv-Emr">
+                                <rect key="frame" x="0.0" y="33" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Title" id="Fm0-v6-wXt">
+                                        <barButtonItem key="leftBarButtonItem" title="取消" id="QuR-lb-Nq3">
+                                            <connections>
+                                                <action selector="didClickBack:" destination="rRt-tl-PpH" id="PUy-5g-W5O"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="完成" id="ezi-Kc-3Xs">
+                                            <connections>
+                                                <action selector="didClickLogin:" destination="rRt-tl-PpH" id="lLq-jN-riT"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameField" destination="pHV-Vb-Crp" id="qaq-5p-wTV"/>
+                        <outlet property="pwdField" destination="OPa-Mn-n45" id="IFc-DI-92g"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IFP-ab-UQJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="970" y="14"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Crr-3k-QYb">

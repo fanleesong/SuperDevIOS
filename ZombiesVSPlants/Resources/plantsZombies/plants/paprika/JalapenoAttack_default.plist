@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>JalapenoAttack－1（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 77}, {755, 53}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -38}</string>
+			<key>spriteSize</key>
+			<string>{755, 53}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 310}, {755, 53}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>JalapenoAttack－2（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 73}, {755, 57}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -36}</string>
+			<key>spriteSize</key>
+			<string>{755, 57}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 251}, {755, 57}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>JalapenoAttack－3（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 73}, {755, 57}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -36}</string>
+			<key>spriteSize</key>
+			<string>{755, 57}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 192}, {755, 57}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>JalapenoAttack－4（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 48}, {755, 81}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -23}</string>
+			<key>spriteSize</key>
+			<string>{755, 81}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 109}, {755, 81}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>JalapenoAttack－5（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 22}, {755, 107}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -10}</string>
+			<key>spriteSize</key>
+			<string>{755, 107}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {755, 107}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>JalapenoAttack－6（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{50, 1}, {705, 119}}</string>
+			<key>spriteOffset</key>
+			<string>{25, 5}</string>
+			<key>spriteSize</key>
+			<string>{705, 119}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 365}, {705, 119}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>JalapenoAttack－7（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{260, 2}, {495, 93}}</string>
+			<key>spriteOffset</key>
+			<string>{130, 17}</string>
+			<key>spriteSize</key>
+			<string>{495, 93}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 486}, {495, 93}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>JalapenoAttack－8（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{531, 1}, {219, 53}}</string>
+			<key>spriteOffset</key>
+			<string>{263, 38}</string>
+			<key>spriteSize</key>
+			<string>{219, 53}</string>
+			<key>spriteSourceSize</key>
+			<string>{755, 131}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{757, 0}, {219, 53}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.6.0</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>JalapenoAttack.zwd</string>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>JalapenoAttack_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>JalapenoAttack_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

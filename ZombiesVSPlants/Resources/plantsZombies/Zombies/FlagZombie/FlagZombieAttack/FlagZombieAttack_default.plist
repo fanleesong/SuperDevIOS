@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>FlagZombieAttack1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{60, 1}, {100, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{27, -0}</string>
+			<key>spriteSize</key>
+			<string>{100, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 290}, {100, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack10.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{60, 1}, {98, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{26, -0}</string>
+			<key>spriteSize</key>
+			<string>{98, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{102, 290}, {98, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack11.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{62, 0}, {96, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{27, -0}</string>
+			<key>spriteSize</key>
+			<string>{96, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{312, 0}, {96, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{56, 1}, {104, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{25, -0}</string>
+			<key>spriteSize</key>
+			<string>{104, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{104, 0}, {104, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{58, 0}, {102, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{26, -0}</string>
+			<key>spriteSize</key>
+			<string>{102, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {102, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{60, 0}, {98, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{26, -0}</string>
+			<key>spriteSize</key>
+			<string>{98, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{104, 144}, {98, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{62, 0}, {96, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{27, -0}</string>
+			<key>spriteSize</key>
+			<string>{96, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{204, 286}, {96, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{62, 0}, {96, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{27, -0}</string>
+			<key>spriteSize</key>
+			<string>{96, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{302, 286}, {96, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{60, 1}, {100, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{27, -0}</string>
+			<key>spriteSize</key>
+			<string>{100, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{210, 0}, {100, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{56, 3}, {104, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{25, -1}</string>
+			<key>spriteSize</key>
+			<string>{104, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{204, 144}, {104, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>FlagZombieAttack9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{58, 2}, {102, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{26, -1}</string>
+			<key>spriteSize</key>
+			<string>{102, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 146}, {102, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>FlagZombieAttack</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>FlagZombieAttack_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>FlagZombieAttack_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

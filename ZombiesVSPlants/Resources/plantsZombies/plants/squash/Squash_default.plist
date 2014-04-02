@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>Squash－10（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{15, 146}, {72, 80}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -73}</string>
+			<key>spriteSize</key>
+			<string>{72, 80}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{144, 0}, {72, 80}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－11（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{15, 144}, {72, 82}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -72}</string>
+			<key>spriteSize</key>
+			<string>{72, 82}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 176}, {72, 82}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－12（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{15, 144}, {72, 82}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -72}</string>
+			<key>spriteSize</key>
+			<string>{72, 82}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{208, 166}, {72, 82}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－13（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{15, 144}, {70, 82}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -72}</string>
+			<key>spriteSize</key>
+			<string>{70, 82}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{72, 260}, {70, 82}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－14（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 144}, {70, 82}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -72}</string>
+			<key>spriteSize</key>
+			<string>{70, 82}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 260}, {70, 82}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－15（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 142}, {70, 84}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -71}</string>
+			<key>spriteSize</key>
+			<string>{70, 84}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{136, 166}, {70, 84}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－16（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 142}, {68, 84}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -71}</string>
+			<key>spriteSize</key>
+			<string>{68, 84}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{288, 0}, {68, 84}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－17（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 142}, {68, 84}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -71}</string>
+			<key>spriteSize</key>
+			<string>{68, 84}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{218, 0}, {68, 84}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－1（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 142}, {68, 84}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -71}</string>
+			<key>spriteSize</key>
+			<string>{68, 84}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{208, 250}, {68, 84}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－2（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{18, 140}, {66, 86}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -70}</string>
+			<key>spriteSize</key>
+			<string>{66, 86}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {66, 86}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－3（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{18, 140}, {66, 86}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -70}</string>
+			<key>spriteSize</key>
+			<string>{66, 86}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{68, 82}, {66, 86}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－4（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{18, 140}, {66, 86}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -70}</string>
+			<key>spriteSize</key>
+			<string>{66, 86}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 88}, {66, 86}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－5（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{18, 142}, {66, 84}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -71}</string>
+			<key>spriteSize</key>
+			<string>{66, 84}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{278, 334}, {66, 84}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－6（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{17, 142}, {68, 84}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -71}</string>
+			<key>spriteSize</key>
+			<string>{68, 84}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{282, 86}, {68, 84}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－7（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{16, 144}, {70, 82}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -72}</string>
+			<key>spriteSize</key>
+			<string>{70, 82}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{278, 250}, {70, 82}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－8（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{15, 144}, {72, 82}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -72}</string>
+			<key>spriteSize</key>
+			<string>{72, 82}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{136, 82}, {72, 82}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Squash－9（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{14, 146}, {74, 80}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -73}</string>
+			<key>spriteSize</key>
+			<string>{74, 80}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{68, 0}, {74, 80}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>Squash</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>Squash_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>Squash_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

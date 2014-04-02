@@ -147,6 +147,7 @@
 		1781C47818EBEED1004B83E3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1781C47718EBEED1004B83E3 /* libxml2.dylib */; };
 		1781C47A18EBEFB5004B83E3 /* libresolv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1781C47918EBEFB5004B83E3 /* libresolv.dylib */; };
 		1781C47D18EBF2AF004B83E3 /* StreamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1781C47C18EBF2AF004B83E3 /* StreamManager.m */; };
+		1781C4C218EC0144004B83E3 /* loginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1781C4C118EC0144004B83E3 /* loginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -438,6 +439,8 @@
 		1781C47918EBEFB5004B83E3 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
 		1781C47B18EBF2AF004B83E3 /* StreamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StreamManager.h; path = ../StreamManager.h; sourceTree = "<group>"; };
 		1781C47C18EBF2AF004B83E3 /* StreamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StreamManager.m; path = ../StreamManager.m; sourceTree = "<group>"; };
+		1781C4C018EC0144004B83E3 /* loginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginViewController.h; sourceTree = "<group>"; };
+		1781C4C118EC0144004B83E3 /* loginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -510,6 +513,8 @@
 				1781C29D18EBE7C6004B83E3 /* ViewController.m */,
 				1781C47B18EBF2AF004B83E3 /* StreamManager.h */,
 				1781C47C18EBF2AF004B83E3 /* StreamManager.m */,
+				1781C4C018EC0144004B83E3 /* loginViewController.h */,
+				1781C4C118EC0144004B83E3 /* loginViewController.m */,
 				1781C29F18EBE7C6004B83E3 /* Images.xcassets */,
 				1781C28E18EBE7C6004B83E3 /* Supporting Files */,
 			);
@@ -1412,6 +1417,7 @@
 				1781C43718EBE814004B83E3 /* XMPPvCardTempAdrTypes.m in Sources */,
 				1781C45B18EBE815004B83E3 /* XMPPTime.m in Sources */,
 				1781C45818EBE815004B83E3 /* XMPPAutoPing.m in Sources */,
+				1781C4C218EC0144004B83E3 /* loginViewController.m in Sources */,
 				1781C41E18EBE814004B83E3 /* XMPPJabberRPCModule.m in Sources */,
 				1781C3FE18EBE814004B83E3 /* XMPPDeprecatedPlainAuthentication.m in Sources */,
 				1781C47318EBE815004B83E3 /* DDXMLElement.m in Sources */,
@@ -1727,6 +1733,7 @@
 				1781C2B818EBE7C6004B83E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1781C2B918EBE7C6004B83E3 /* Build configuration list for PBXNativeTarget "XMPPSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -1735,6 +1742,7 @@
 				1781C2BB18EBE7C6004B83E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

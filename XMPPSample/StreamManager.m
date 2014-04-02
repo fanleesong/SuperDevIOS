@@ -10,6 +10,13 @@
 
 
 @interface StreamManager()
+
+//注册密码
+@property(nonatomic,strong)NSString *registPwd;
+//登陆密码
+@property(nonatomic,strong)NSString *loginPwd;
+
+
 //XMPP聊谈通道管理对象
 @property(nonatomic,strong)XMPPStream *xmppStream;
 //重置通道管理对象
@@ -35,10 +42,6 @@ static StreamManager *instance = nil;
     return instance;
 
 }
--(void)loginWithName:(NSString *)name password:(NSString *)password{
-
-
-}
 #pragma mark---
 //重置通道管理对象
 -(void)_resetStream{
@@ -53,16 +56,79 @@ static StreamManager *instance = nil;
     [self.xmppStream connectWithTimeout:-1 error:nil];
 
 }
+#pragma mark----regist & login
+-(void)loginWithName:(NSString *)name password:(NSString *)password{
+    
+    //重置通道管理对象
+    [self _resetStream];
+    //设置通道管理对象的主播方
+    name = [name stringByAppendingString:@"@lin.local"];
+    self.xmppStream.myJID = [XMPPJID jidWithString:name];
+    self.loginPwd = password;
+    //链接通道管理对象到服务器
+    [self _linkStream];
+}
 
 -(void)registWithName:(NSString *)name password:(NSString *)password{
 
     //重置通道管理对象
     [self _resetStream];
     //设置通道管理对象的主播方
-    name = [name stringByAppendingString:@"@leesong"];
+    name = [name stringByAppendingString:@"@lin.local"];
     self.xmppStream.myJID = [XMPPJID jidWithString:name];
+    self.registPwd = password;
     //链接通道管理对象到服务器
     [self _linkStream];
+    
+}
+-(void)xmppStreamWillConnect:(XMPPStream *)sender{
+
+    NSLog(@"%s",__FUNCTION__);
+    
+}
+-(void)xmppStreamDidConnect:(XMPPStream *)sender{
+
+        NSLog(@"%s",__FUNCTION__);
+    if (self.registPwd != nil) {
+        //使用通道管理对象进行用户注册
+        [self.xmppStream registerWithPassword:self.registPwd error:nil];
+    }
+    
+    if (self.loginPwd != nil) {
+        //使用通道管理对象进行用户登陆
+        [self.xmppStream authenticateWithPassword:self.loginPwd error:nil];
+    }
+    
+}
+-(void)xmppStreamDidDisconnect:(XMPPStream *)sender withError:(NSError *)error{
+
+        NSLog(@"%s",__FUNCTION__);
+
+}
+-(void)xmppStream:(XMPPStream *)sender socketDidConnect:(GCDAsyncSocket *)socket{
+
+        NSLog(@"%s",__FUNCTION__);
+    
+    
+}
+-(void)xmppStreamDidRegister:(XMPPStream *)sender{
+
+    NSLog(@"%s",__FUNCTION__);
+    
+}
+-(void)xmppStreamDidAuthenticate:(XMPPStream *)sender{
+    NSLog(@"%s",__FUNCTION__);
+}
+-(void)xmppStream:(XMPPStream *)sender didNotAuthenticate:(DDXMLElement *)error{
+
+    NSLog(@"%s",__FUNCTION__);
+    NSLog(@"%@",error.XMLString);
+    
+}
+-(void)xmppStream:(XMPPStream *)sender didNotRegister:(DDXMLElement *)error{
+    
+    NSLog(@"%s",__FUNCTION__);
+    NSLog(@"%@",error.XMLString);
     
 }
 

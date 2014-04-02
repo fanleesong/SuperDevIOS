@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>PoleVaultingZombieDie1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{200, 100}, {68, 98}}</string>
+			<key>spriteOffset</key>
+			<string>{60, -40}</string>
+			<key>spriteSize</key>
+			<string>{68, 98}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{208, 0}, {68, 98}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{192, 99}, {76, 98}}</string>
+			<key>spriteOffset</key>
+			<string>{56, -39}</string>
+			<key>spriteSize</key>
+			<string>{76, 98}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{130, 0}, {76, 98}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{173, 101}, {94, 94}}</string>
+			<key>spriteOffset</key>
+			<string>{46, -39}</string>
+			<key>spriteSize</key>
+			<string>{94, 94}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 120}, {94, 94}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{132, 113}, {96, 72}}</string>
+			<key>spriteOffset</key>
+			<string>{6, -40}</string>
+			<key>spriteSize</key>
+			<string>{96, 72}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 46}, {96, 72}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{126, 155}, {114, 48}}</string>
+			<key>spriteOffset</key>
+			<string>{9, -70}</string>
+			<key>spriteSize</key>
+			<string>{114, 48}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{220, 188}, {114, 48}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{124, 163}, {122, 50}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -79}</string>
+			<key>spriteSize</key>
+			<string>{122, 50}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{96, 188}, {122, 50}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{120, 167}, {124, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{8, -79}</string>
+			<key>spriteSize</key>
+			<string>{124, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{96, 144}, {124, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{119, 169}, {128, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{9, -81}</string>
+			<key>spriteSize</key>
+			<string>{128, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{98, 100}, {128, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieDie9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{119, 170}, {128, 44}}</string>
+			<key>spriteOffset</key>
+			<string>{9, -83}</string>
+			<key>spriteSize</key>
+			<string>{128, 44}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {128, 44}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>PoleVaultingZombieDie</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>PoleVaultingZombieDie_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>PoleVaultingZombieDie_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

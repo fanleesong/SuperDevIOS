@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>PoleVaultingZombieLostHead1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{210, 100}, {52, 100}}</string>
+			<key>spriteOffset</key>
+			<string>{62, -41}</string>
+			<key>spriteSize</key>
+			<string>{52, 100}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{214, 198}, {52, 100}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead10.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{210, 101}, {60, 100}}</string>
+			<key>spriteOffset</key>
+			<string>{66, -42}</string>
+			<key>spriteSize</key>
+			<string>{60, 100}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 106}, {60, 100}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{203, 97}, {68, 104}}</string>
+			<key>spriteOffset</key>
+			<string>{63, -40}</string>
+			<key>spriteSize</key>
+			<string>{68, 104}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {68, 104}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{197, 98}, {80, 98}}</string>
+			<key>spriteOffset</key>
+			<string>{63, -38}</string>
+			<key>spriteSize</key>
+			<string>{80, 98}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{166, 0}, {80, 98}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{196, 111}, {82, 96}}</string>
+			<key>spriteOffset</key>
+			<string>{63, -50}</string>
+			<key>spriteSize</key>
+			<string>{82, 96}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{154, 100}, {82, 96}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{205, 111}, {58, 96}}</string>
+			<key>spriteOffset</key>
+			<string>{60, -50}</string>
+			<key>spriteSize</key>
+			<string>{58, 96}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{78, 204}, {58, 96}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{205, 105}, {58, 102}}</string>
+			<key>spriteOffset</key>
+			<string>{60, -47}</string>
+			<key>spriteSize</key>
+			<string>{58, 102}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{154, 198}, {58, 102}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{194, 102}, {82, 102}}</string>
+			<key>spriteOffset</key>
+			<string>{61, -44}</string>
+			<key>spriteSize</key>
+			<string>{82, 102}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{70, 100}, {82, 102}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{189, 102}, {94, 98}}</string>
+			<key>spriteOffset</key>
+			<string>{62, -42}</string>
+			<key>spriteSize</key>
+			<string>{94, 98}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{70, 0}, {94, 98}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>PoleVaultingZombieLostHead9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{202, 112}, {76, 92}}</string>
+			<key>spriteOffset</key>
+			<string>{66, -49}</string>
+			<key>spriteSize</key>
+			<string>{76, 92}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 208}, {76, 92}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>PoleVaultingZombieLostHead</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>PoleVaultingZombieLostHead_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>PoleVaultingZombieLostHead_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

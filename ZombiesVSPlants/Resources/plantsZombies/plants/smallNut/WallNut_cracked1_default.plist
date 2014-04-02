@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>Wallnut_cracked1－10（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 4}, {61, 69}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -2}</string>
+			<key>spriteSize</key>
+			<string>{61, 69}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{443, 0}, {61, 69}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－11（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 4}, {61, 69}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -2}</string>
+			<key>spriteSize</key>
+			<string>{61, 69}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{63, 73}, {61, 69}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－1（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{1, 2}, {61, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -1}</string>
+			<key>spriteSize</key>
+			<string>{61, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{65, 0}, {61, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－2（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{1, 2}, {61, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -1}</string>
+			<key>spriteSize</key>
+			<string>{61, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{380, 0}, {61, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－3（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{2, 2}, {61, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -1}</string>
+			<key>spriteSize</key>
+			<string>{61, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{254, 0}, {61, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－4（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{3, 4}, {61, 69}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -2}</string>
+			<key>spriteSize</key>
+			<string>{61, 69}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{443, 71}, {61, 69}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－5（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{3, 4}, {61, 69}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -2}</string>
+			<key>spriteSize</key>
+			<string>{61, 69}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 73}, {61, 69}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－6（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{2, 2}, {63, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -1}</string>
+			<key>spriteSize</key>
+			<string>{63, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {63, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－7（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{2, 2}, {61, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -1}</string>
+			<key>spriteSize</key>
+			<string>{61, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{128, 0}, {61, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－8（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{2, 2}, {61, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -1}</string>
+			<key>spriteSize</key>
+			<string>{61, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{317, 0}, {61, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Wallnut_cracked1－9（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{1, 2}, {61, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -1}</string>
+			<key>spriteSize</key>
+			<string>{61, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{65, 73}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{191, 0}, {61, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>WallNut_cracked1</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>WallNut_cracked1_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>WallNut_cracked1_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

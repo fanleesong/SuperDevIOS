@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>Peashooter－10（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 7}, {61, 63}}</string>
+			<key>spriteOffset</key>
+			<string>{-5, -3}</string>
+			<key>spriteSize</key>
+			<string>{61, 63}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 142}, {61, 63}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－11（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 8}, {63, 63}}</string>
+			<key>spriteOffset</key>
+			<string>{-4, -4}</string>
+			<key>spriteSize</key>
+			<string>{63, 63}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{130, 73}, {63, 63}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－12（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 1}, {63, 69}}</string>
+			<key>spriteOffset</key>
+			<string>{-4, -0}</string>
+			<key>spriteSize</key>
+			<string>{63, 69}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{390, 0}, {63, 69}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－13（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{1, 0}, {63, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, -0}</string>
+			<key>spriteSize</key>
+			<string>{63, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{325, 0}, {63, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－1（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{3, 0}, {63, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -0}</string>
+			<key>spriteSize</key>
+			<string>{63, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {63, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－2（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{4, 0}, {63, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -0}</string>
+			<key>spriteSize</key>
+			<string>{63, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{65, 0}, {63, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－3（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{6, 4}, {63, 67}}</string>
+			<key>spriteOffset</key>
+			<string>{2, -2}</string>
+			<key>spriteSize</key>
+			<string>{63, 67}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 73}, {63, 67}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－4（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{8, 6}, {63, 65}}</string>
+			<key>spriteOffset</key>
+			<string>{4, -3}</string>
+			<key>spriteSize</key>
+			<string>{63, 65}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{130, 140}, {63, 65}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－5（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{5, 4}, {63, 67}}</string>
+			<key>spriteOffset</key>
+			<string>{1, -2}</string>
+			<key>spriteSize</key>
+			<string>{63, 67}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{65, 73}, {63, 67}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－6（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{3, 0}, {63, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -0}</string>
+			<key>spriteSize</key>
+			<string>{63, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{130, 0}, {63, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－7（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{2, 0}, {63, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-2, -0}</string>
+			<key>spriteSize</key>
+			<string>{63, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{260, 0}, {63, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－8（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{1, 0}, {63, 71}}</string>
+			<key>spriteOffset</key>
+			<string>{-3, -0}</string>
+			<key>spriteSize</key>
+			<string>{63, 71}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{195, 0}, {63, 71}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>Peashooter－9（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 4}, {63, 67}}</string>
+			<key>spriteOffset</key>
+			<string>{-4, -2}</string>
+			<key>spriteSize</key>
+			<string>{63, 67}</string>
+			<key>spriteSourceSize</key>
+			<string>{71, 71}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{390, 71}, {63, 67}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>Peashooter</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>Peashooter_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>Peashooter_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

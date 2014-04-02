@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>SquashAttack－1（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{20, 0}, {64, 92}}</string>
+			<key>spriteOffset</key>
+			<string>{2, 67}</string>
+			<key>spriteSize</key>
+			<string>{64, 92}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 52}, {64, 92}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>SquashAttack－2（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{19, 29}, {66, 88}}</string>
+			<key>spriteOffset</key>
+			<string>{2, 40}</string>
+			<key>spriteSize</key>
+			<string>{66, 88}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{102, 0}, {66, 88}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>SquashAttack－3（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{0, 176}, {100, 50}}</string>
+			<key>spriteOffset</key>
+			<string>{0, -88}</string>
+			<key>spriteSize</key>
+			<string>{100, 50}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {100, 50}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>SquashAttack－4（被拖移）.tiff</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{2, 176}, {94, 42}}</string>
+			<key>spriteOffset</key>
+			<string>{-1, -84}</string>
+			<key>spriteSize</key>
+			<string>{94, 42}</string>
+			<key>spriteSourceSize</key>
+			<string>{100, 226}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{66, 90}, {94, 42}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>SquashAttack</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>SquashAttack_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>SquashAttack_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

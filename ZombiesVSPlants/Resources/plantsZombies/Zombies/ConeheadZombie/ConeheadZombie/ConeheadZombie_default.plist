@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>ConeheadZombie1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{81, 4}, {76, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{36, -2}</string>
+			<key>spriteSize</key>
+			<string>{76, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{172, 0}, {76, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie10.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{78, 3}, {88, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{39, -1}</string>
+			<key>spriteSize</key>
+			<string>{88, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{82, 0}, {88, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie11.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{79, 2}, {86, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{39, -1}</string>
+			<key>spriteSize</key>
+			<string>{86, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{234, 142}, {86, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie12.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{81, 2}, {80, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{38, -1}</string>
+			<key>spriteSize</key>
+			<string>{80, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 146}, {80, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie13.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{82, 2}, {76, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{37, -1}</string>
+			<key>spriteSize</key>
+			<string>{76, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{86, 288}, {76, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie14.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{83, 2}, {72, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{36, -1}</string>
+			<key>spriteSize</key>
+			<string>{72, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{392, 0}, {72, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie15.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{84, 2}, {70, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{36, -1}</string>
+			<key>spriteSize</key>
+			<string>{70, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{372, 428}, {70, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie16.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{85, 0}, {68, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{36, -0}</string>
+			<key>spriteSize</key>
+			<string>{68, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{234, 286}, {68, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie17.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{86, 0}, {66, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{36, -0}</string>
+			<key>spriteSize</key>
+			<string>{66, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{304, 286}, {66, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie18.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{86, 0}, {64, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{35, -0}</string>
+			<key>spriteSize</key>
+			<string>{64, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{326, 0}, {64, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie19.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{83, 2}, {70, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{35, -1}</string>
+			<key>spriteSize</key>
+			<string>{70, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{466, 0}, {70, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{81, 4}, {74, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{35, -2}</string>
+			<key>spriteSize</key>
+			<string>{74, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{250, 0}, {74, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie20.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{82, 4}, {72, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{35, -2}</string>
+			<key>spriteSize</key>
+			<string>{72, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{400, 144}, {72, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie21.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{81, 5}, {76, 138}}</string>
+			<key>spriteOffset</key>
+			<string>{36, -2}</string>
+			<key>spriteSize</key>
+			<string>{76, 138}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{322, 146}, {76, 138}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{82, 3}, {72, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{35, -1}</string>
+			<key>spriteSize</key>
+			<string>{72, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{372, 286}, {72, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{82, 3}, {66, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{32, -1}</string>
+			<key>spriteSize</key>
+			<string>{66, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 434}, {66, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{82, 1}, {68, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{33, -0}</string>
+			<key>spriteSize</key>
+			<string>{68, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{164, 288}, {68, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{82, 0}, {72, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{35, -0}</string>
+			<key>spriteSize</key>
+			<string>{72, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{160, 142}, {72, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{83, 0}, {76, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{38, -0}</string>
+			<key>spriteSize</key>
+			<string>{76, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{82, 142}, {76, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{81, 0}, {80, 144}}</string>
+			<key>spriteOffset</key>
+			<string>{38, -0}</string>
+			<key>spriteSize</key>
+			<string>{80, 144}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {80, 144}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>ConeheadZombie9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{80, 1}, {84, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{39, -0}</string>
+			<key>spriteSize</key>
+			<string>{84, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 290}, {84, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>ConeheadZombie</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>ConeheadZombie_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>ConeheadZombie_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

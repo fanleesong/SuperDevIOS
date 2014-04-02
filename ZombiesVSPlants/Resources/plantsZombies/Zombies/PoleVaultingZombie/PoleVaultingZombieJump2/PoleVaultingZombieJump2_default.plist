@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>PoleVaultingZombieJump21.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{206, 48}, {142, 76}}</string>
+			<key>spriteOffset</key>
+			<string>{103, 23}</string>
+			<key>spriteSize</key>
+			<string>{142, 76}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {142, 76}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>PoleVaultingZombieJump22.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{216, 28}, {88, 132}}</string>
+			<key>spriteOffset</key>
+			<string>{86, 15}</string>
+			<key>spriteSize</key>
+			<string>{88, 132}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 78}, {88, 132}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>PoleVaultingZombieJump23.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{212, 37}, {84, 134}}</string>
+			<key>spriteOffset</key>
+			<string>{80, 5}</string>
+			<key>spriteSize</key>
+			<string>{84, 134}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{90, 118}, {84, 134}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>PoleVaultingZombieJump24.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{185, 78}, {84, 124}}</string>
+			<key>spriteOffset</key>
+			<string>{53, -31}</string>
+			<key>spriteSize</key>
+			<string>{84, 124}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{176, 118}, {84, 124}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>PoleVaultingZombieJump25.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{180, 86}, {90, 116}}</string>
+			<key>spriteOffset</key>
+			<string>{51, -35}</string>
+			<key>spriteSize</key>
+			<string>{90, 116}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{144, 0}, {90, 116}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>PoleVaultingZombieJump26.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{182, 83}, {88, 120}}</string>
+			<key>spriteOffset</key>
+			<string>{52, -34}</string>
+			<key>spriteSize</key>
+			<string>{88, 120}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 212}, {88, 120}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		<key>PoleVaultingZombieJump27.png</key>
+		<dict>
+			<key>aliases</key>
+			<array/>
+			<key>spriteColorRect</key>
+			<string>{{189, 72}, {78, 130}}</string>
+			<key>spriteOffset</key>
+			<string>{54, -28}</string>
+			<key>spriteSize</key>
+			<string>{78, 130}</string>
+			<key>spriteSourceSize</key>
+			<string>{348, 218}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{176, 244}, {78, 130}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>poleVaultingZombieJump2</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>poleVaultingZombieJump2_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>poleVaultingZombieJump2_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

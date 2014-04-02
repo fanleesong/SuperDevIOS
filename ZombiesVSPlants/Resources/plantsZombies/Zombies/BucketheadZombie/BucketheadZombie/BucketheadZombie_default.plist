@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		
+		<key>BucketheadZombie1.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{65, 4}, {68, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{16, -2}</string>
+			<key>spriteSize</key>
+			<string>{68, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 284}, {68, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie10.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{54, 7}, {92, 136}}</string>
+			<key>spriteOffset</key>
+			<string>{17, -3}</string>
+			<key>spriteSize</key>
+			<string>{92, 136}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{72, 0}, {92, 136}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie11.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{56, 8}, {88, 136}}</string>
+			<key>spriteOffset</key>
+			<string>{17, -4}</string>
+			<key>spriteSize</key>
+			<string>{88, 136}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{166, 0}, {88, 136}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie12.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{58, 8}, {78, 136}}</string>
+			<key>spriteOffset</key>
+			<string>{14, -4}</string>
+			<key>spriteSize</key>
+			<string>{78, 136}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{224, 138}, {78, 136}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie13.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{60, 5}, {70, 138}}</string>
+			<key>spriteOffset</key>
+			<string>{12, -2}</string>
+			<key>spriteSize</key>
+			<string>{70, 138}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 144}, {70, 138}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie14.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{62, 5}, {64, 138}}</string>
+			<key>spriteOffset</key>
+			<string>{11, -2}</string>
+			<key>spriteSize</key>
+			<string>{64, 138}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{68, 556}, {64, 138}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie15.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{65, 4}, {64, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{14, -2}</string>
+			<key>spriteSize</key>
+			<string>{64, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{146, 416}, {64, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie2.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{63, 6}, {74, 138}}</string>
+			<key>spriteOffset</key>
+			<string>{17, -3}</string>
+			<key>spriteSize</key>
+			<string>{74, 138}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{70, 416}, {74, 138}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie3.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{56, 10}, {80, 134}}</string>
+			<key>spriteOffset</key>
+			<string>{13, -5}</string>
+			<key>spriteSize</key>
+			<string>{80, 134}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{72, 280}, {80, 134}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie4.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{52, 10}, {78, 134}}</string>
+			<key>spriteOffset</key>
+			<string>{8, -5}</string>
+			<key>spriteSize</key>
+			<string>{78, 134}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{256, 0}, {78, 134}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie5.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{54, 4}, {72, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{7, -2}</string>
+			<key>spriteSize</key>
+			<string>{72, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{224, 276}, {72, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie6.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{59, 4}, {66, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{9, -2}</string>
+			<key>spriteSize</key>
+			<string>{66, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 426}, {66, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie7.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{66, 2}, {68, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{17, -1}</string>
+			<key>spriteSize</key>
+			<string>{68, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{154, 138}, {68, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie8.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{69, 2}, {70, 142}}</string>
+			<key>spriteOffset</key>
+			<string>{21, -1}</string>
+			<key>spriteSize</key>
+			<string>{70, 142}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{0, 0}, {70, 142}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+		<key>BucketheadZombie9.png</key>
+		<dict>
+			<key>aliases</key>
+			<array>
+			
+			</array>
+			<key>spriteColorRect</key>
+			<string>{{64, 4}, {80, 140}}</string>
+			<key>spriteOffset</key>
+			<string>{21, -2}</string>
+			<key>spriteSize</key>
+			<string>{80, 140}</string>
+			<key>spriteSourceSize</key>
+			<string>{166, 144}</string>
+			<key>spriteTrimmed</key>
+			<true/>
+			<key>textureRect</key>
+			<string>{{72, 138}, {80, 140}}</string>
+			<key>textureRotated</key>
+			<false/>
+		</dict>
+		
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<string>1.5.2</string>
+		<key>format</key>
+		<integer>3</integer>
+		<key>size</key>
+		<string>{1024, 1024}</string>
+		<key>name</key>
+		<string>BucketheadZombie</string>
+		<key>premultipliedAlpha</key>
+		<false/>
+		<key>target</key>
+		<dict>
+			<key>name</key>
+			<string>default</string>
+			<key>textureFileName</key>
+			<string>BucketheadZombie_default</string>
+			<key>textureFileExtension</key>
+			<string>.png</string>
+			<key>coordinatesFileName</key>
+			<string>BucketheadZombie_default</string>
+			<key>coordinatesFileExtension</key>
+			<string>.plist</string>
+			<key>premultipliedAlpha</key>
+			<false/>
+		</dict>
+	</dict>
+</dict>
+</plist>

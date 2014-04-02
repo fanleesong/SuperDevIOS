@@ -37,6 +37,8 @@
 }
 -(IBAction)didClickCommit:(id)sender{
     
+    [[StreamManager defaultManager]registWithName:self.nameField.text password:self.pwdField.text];
+    
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
