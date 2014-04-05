@@ -33,7 +33,7 @@
     //使用该方法可以直接跳到对应的网址
 //    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http:www.baidu.com"]];
 //    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://itunes.apple.com/cn/app/wechat/id836500024?mt=12"]];
-    HTTPSURLProtocol *t = [[HTTPSURLProtocol alloc] init];
+//    HTTPSURLProtocol *t = [[HTTPSURLProtocol alloc] init];
     
     
     return YES;

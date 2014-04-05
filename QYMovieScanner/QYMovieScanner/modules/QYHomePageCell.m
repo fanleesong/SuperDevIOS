@@ -68,8 +68,6 @@
                 QYVideoModule * firstVideo = [_dataForCellArray objectAtIndex:0];
                 [imageView setImageWithURL:[NSURL URLWithString:firstVideo.picUrl]];
                 UILabel * timelabel =(UILabel *)[[imageView subviews] objectAtIndex:0];
-//                NSLog(@"=====%@",firstVideo.totalTime);
-//                NSLog(@"timeLable ---%@",timelabel);
                 NSString * totalTimeString = [NSString stringWithFormat:@"%@",firstVideo.totalTime];
                 timelabel.text = totalTimeString;
 
