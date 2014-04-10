@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1753679A18F6360400AFA5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753679918F6360400AFA5BE /* Foundation.framework */; };
+		1753679C18F6360400AFA5BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753679B18F6360400AFA5BE /* CoreGraphics.framework */; };
+		1753679E18F6360400AFA5BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753679D18F6360400AFA5BE /* UIKit.framework */; };
+		175367A418F6360400AFA5BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 175367A218F6360400AFA5BE /* InfoPlist.strings */; };
+		175367A618F6360400AFA5BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 175367A518F6360400AFA5BE /* main.m */; };
+		175367AA18F6360400AFA5BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 175367A918F6360400AFA5BE /* AppDelegate.m */; };
+		175367AD18F6360400AFA5BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 175367AB18F6360400AFA5BE /* Main.storyboard */; };
+		175367B018F6360400AFA5BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 175367AF18F6360400AFA5BE /* ViewController.m */; };
+		175367B218F6360400AFA5BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175367B118F6360400AFA5BE /* Images.xcassets */; };
+		175367B918F6360400AFA5BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175367B818F6360400AFA5BE /* XCTest.framework */; };
+		175367BA18F6360400AFA5BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753679918F6360400AFA5BE /* Foundation.framework */; };
+		175367BB18F6360400AFA5BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1753679D18F6360400AFA5BE /* UIKit.framework */; };
+		175367C318F6360400AFA5BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 175367C118F6360400AFA5BE /* InfoPlist.strings */; };
+		175367C518F6360400AFA5BE /* ImageCacheSmapleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 175367C418F6360400AFA5BE /* ImageCacheSmapleTests.m */; };
+		175367D018F6376600AFA5BE /* ImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 175367CF18F6376600AFA5BE /* ImageCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		175367BC18F6360400AFA5BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1753678E18F6360400AFA5BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1753679518F6360400AFA5BE;
+			remoteInfo = ImageCacheSmaple;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1753679618F6360400AFA5BE /* ImageCacheSmaple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCacheSmaple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1753679918F6360400AFA5BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1753679B18F6360400AFA5BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1753679D18F6360400AFA5BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		175367A118F6360400AFA5BE /* ImageCacheSmaple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageCacheSmaple-Info.plist"; sourceTree = "<group>"; };
+		175367A318F6360400AFA5BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		175367A518F6360400AFA5BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		175367A718F6360400AFA5BE /* ImageCacheSmaple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageCacheSmaple-Prefix.pch"; sourceTree = "<group>"; };
+		175367A818F6360400AFA5BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		175367A918F6360400AFA5BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		175367AC18F6360400AFA5BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		175367AE18F6360400AFA5BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		175367AF18F6360400AFA5BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		175367B118F6360400AFA5BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		175367B718F6360400AFA5BE /* ImageCacheSmapleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageCacheSmapleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		175367B818F6360400AFA5BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		175367C018F6360400AFA5BE /* ImageCacheSmapleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageCacheSmapleTests-Info.plist"; sourceTree = "<group>"; };
+		175367C218F6360400AFA5BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		175367C418F6360400AFA5BE /* ImageCacheSmapleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCacheSmapleTests.m; sourceTree = "<group>"; };
+		175367CE18F6376600AFA5BE /* ImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCache.h; sourceTree = "<group>"; };
+		175367CF18F6376600AFA5BE /* ImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCache.m; sourceTree = "<group>"; };
+		175367D118F640A100AFA5BE /* libcommonCrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcommonCrypto.dylib; path = usr/lib/system/libcommonCrypto.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1753679318F6360400AFA5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1753679C18F6360400AFA5BE /* CoreGraphics.framework in Frameworks */,
+				1753679E18F6360400AFA5BE /* UIKit.framework in Frameworks */,
+				1753679A18F6360400AFA5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175367B418F6360400AFA5BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175367B918F6360400AFA5BE /* XCTest.framework in Frameworks */,
+				175367BB18F6360400AFA5BE /* UIKit.framework in Frameworks */,
+				175367BA18F6360400AFA5BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1753678D18F6360400AFA5BE = {
+			isa = PBXGroup;
+			children = (
+				1753679F18F6360400AFA5BE /* ImageCacheSmaple */,
+				175367BE18F6360400AFA5BE /* ImageCacheSmapleTests */,
+				1753679818F6360400AFA5BE /* Frameworks */,
+				1753679718F6360400AFA5BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1753679718F6360400AFA5BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1753679618F6360400AFA5BE /* ImageCacheSmaple.app */,
+				175367B718F6360400AFA5BE /* ImageCacheSmapleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1753679818F6360400AFA5BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				175367D118F640A100AFA5BE /* libcommonCrypto.dylib */,
+				1753679918F6360400AFA5BE /* Foundation.framework */,
+				1753679B18F6360400AFA5BE /* CoreGraphics.framework */,
+				1753679D18F6360400AFA5BE /* UIKit.framework */,
+				175367B818F6360400AFA5BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1753679F18F6360400AFA5BE /* ImageCacheSmaple */ = {
+			isa = PBXGroup;
+			children = (
+				175367A818F6360400AFA5BE /* AppDelegate.h */,
+				175367A918F6360400AFA5BE /* AppDelegate.m */,
+				175367AB18F6360400AFA5BE /* Main.storyboard */,
+				175367AE18F6360400AFA5BE /* ViewController.h */,
+				175367AF18F6360400AFA5BE /* ViewController.m */,
+				175367CE18F6376600AFA5BE /* ImageCache.h */,
+				175367CF18F6376600AFA5BE /* ImageCache.m */,
+				175367B118F6360400AFA5BE /* Images.xcassets */,
+				175367A018F6360400AFA5BE /* Supporting Files */,
+			);
+			path = ImageCacheSmaple;
+			sourceTree = "<group>";
+		};
+		175367A018F6360400AFA5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				175367A118F6360400AFA5BE /* ImageCacheSmaple-Info.plist */,
+				175367A218F6360400AFA5BE /* InfoPlist.strings */,
+				175367A518F6360400AFA5BE /* main.m */,
+				175367A718F6360400AFA5BE /* ImageCacheSmaple-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		175367BE18F6360400AFA5BE /* ImageCacheSmapleTests */ = {
+			isa = PBXGroup;
+			children = (
+				175367C418F6360400AFA5BE /* ImageCacheSmapleTests.m */,
+				175367BF18F6360400AFA5BE /* Supporting Files */,
+			);
+			path = ImageCacheSmapleTests;
+			sourceTree = "<group>";
+		};
+		175367BF18F6360400AFA5BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				175367C018F6360400AFA5BE /* ImageCacheSmapleTests-Info.plist */,
+				175367C118F6360400AFA5BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1753679518F6360400AFA5BE /* ImageCacheSmaple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175367C818F6360400AFA5BE /* Build configuration list for PBXNativeTarget "ImageCacheSmaple" */;
+			buildPhases = (
+				1753679218F6360400AFA5BE /* Sources */,
+				1753679318F6360400AFA5BE /* Frameworks */,
+				1753679418F6360400AFA5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCacheSmaple;
+			productName = ImageCacheSmaple;
+			productReference = 1753679618F6360400AFA5BE /* ImageCacheSmaple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		175367B618F6360400AFA5BE /* ImageCacheSmapleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 175367CB18F6360400AFA5BE /* Build configuration list for PBXNativeTarget "ImageCacheSmapleTests" */;
+			buildPhases = (
+				175367B318F6360400AFA5BE /* Sources */,
+				175367B418F6360400AFA5BE /* Frameworks */,
+				175367B518F6360400AFA5BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				175367BD18F6360400AFA5BE /* PBXTargetDependency */,
+			);
+			name = ImageCacheSmapleTests;
+			productName = ImageCacheSmapleTests;
+			productReference = 175367B718F6360400AFA5BE /* ImageCacheSmapleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1753678E18F6360400AFA5BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = leesong;
+				TargetAttributes = {
+					175367B618F6360400AFA5BE = {
+						TestTargetID = 1753679518F6360400AFA5BE;
+					};
+				};
+			};
+			buildConfigurationList = 1753679118F6360400AFA5BE /* Build configuration list for PBXProject "ImageCacheSmaple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1753678D18F6360400AFA5BE;
+			productRefGroup = 1753679718F6360400AFA5BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1753679518F6360400AFA5BE /* ImageCacheSmaple */,
+				175367B618F6360400AFA5BE /* ImageCacheSmapleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1753679418F6360400AFA5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175367B218F6360400AFA5BE /* Images.xcassets in Resources */,
+				175367A418F6360400AFA5BE /* InfoPlist.strings in Resources */,
+				175367AD18F6360400AFA5BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175367B518F6360400AFA5BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175367C318F6360400AFA5BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1753679218F6360400AFA5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175367B018F6360400AFA5BE /* ViewController.m in Sources */,
+				175367AA18F6360400AFA5BE /* AppDelegate.m in Sources */,
+				175367D018F6376600AFA5BE /* ImageCache.m in Sources */,
+				175367A618F6360400AFA5BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		175367B318F6360400AFA5BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175367C518F6360400AFA5BE /* ImageCacheSmapleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		175367BD18F6360400AFA5BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1753679518F6360400AFA5BE /* ImageCacheSmaple */;
+			targetProxy = 175367BC18F6360400AFA5BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		175367A218F6360400AFA5BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175367A318F6360400AFA5BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		175367AB18F6360400AFA5BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175367AC18F6360400AFA5BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		175367C118F6360400AFA5BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				175367C218F6360400AFA5BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		175367C618F6360400AFA5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		175367C718F6360400AFA5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		175367C918F6360400AFA5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCacheSmaple/ImageCacheSmaple-Prefix.pch";
+				INFOPLIST_FILE = "ImageCacheSmaple/ImageCacheSmaple-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		175367CA18F6360400AFA5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCacheSmaple/ImageCacheSmaple-Prefix.pch";
+				INFOPLIST_FILE = "ImageCacheSmaple/ImageCacheSmaple-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/system",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		175367CC18F6360400AFA5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageCacheSmaple.app/ImageCacheSmaple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCacheSmaple/ImageCacheSmaple-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImageCacheSmapleTests/ImageCacheSmapleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		175367CD18F6360400AFA5BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageCacheSmaple.app/ImageCacheSmaple";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageCacheSmaple/ImageCacheSmaple-Prefix.pch";
+				INFOPLIST_FILE = "ImageCacheSmapleTests/ImageCacheSmapleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1753679118F6360400AFA5BE /* Build configuration list for PBXProject "ImageCacheSmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175367C618F6360400AFA5BE /* Debug */,
+				175367C718F6360400AFA5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		175367C818F6360400AFA5BE /* Build configuration list for PBXNativeTarget "ImageCacheSmaple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175367C918F6360400AFA5BE /* Debug */,
+				175367CA18F6360400AFA5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		175367CB18F6360400AFA5BE /* Build configuration list for PBXNativeTarget "ImageCacheSmapleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				175367CC18F6360400AFA5BE /* Debug */,
+				175367CD18F6360400AFA5BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1753678E18F6360400AFA5BE /* Project object */;
+}
