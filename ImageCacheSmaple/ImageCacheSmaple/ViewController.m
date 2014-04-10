@@ -23,7 +23,7 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     
-    [[ImageCache sharedCache] imageWithURL:@"http://www2.lanou3g.com/uploadfile/2014/0312/20140312113351533.jpg"
+    [[ImageCache sharedCache] imageWithURL:@"http://wenwen.soso.com/p/20101226/20101226141622-764224369.jpg"
                                  completed:^(UIImage *image) {
                                      self.imageView.image = image;
                                  }
