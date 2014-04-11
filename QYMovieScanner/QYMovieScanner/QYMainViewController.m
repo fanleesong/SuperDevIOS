@@ -25,6 +25,7 @@
     if (self) {
         // Custom initialization
         [self.tabBar setHidden:YES];
+        self.view.autoresizesSubviews = YES;
     }
     return self;
 }
