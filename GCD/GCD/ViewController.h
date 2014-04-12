@@ -13,5 +13,7 @@
 
 //串行队列
 -(IBAction)didClickSerialQueue:(id)sender;
+//并行队列
+-(IBAction)didClickConCurrentQueue:(id)sender;
 
 @end
