@@ -24,6 +24,11 @@
     [person setValue:@"admins" forKey:@"name"];
     
     
+    
+    //直接使用字典对对象属性进行赋值操作
+    NSDictionary *dic = @{@"name":@"lan",@"age":@"12",@"imageUrl":@"http://images",@"score":@"1234"};
+    [person setValuesForKeysWithDictionary:dic];
+    
     NSLog(@"%@",person.name);
     
     
