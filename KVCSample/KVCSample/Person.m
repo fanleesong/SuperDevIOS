@@ -10,4 +10,15 @@
 
 @implementation Person
 
+//检测键值是否出现错误
+-(void)setValue:(id)value forUndefinedKey:(NSString *)key{
+
+    NSLog(@"%@",key);
+    
+}
+-(id)valueForUndefinedKey:(NSString *)key{
+
+    return nil;
+}
+
 @end
