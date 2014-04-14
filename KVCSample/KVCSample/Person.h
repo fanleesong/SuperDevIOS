@@ -12,5 +12,7 @@
 
 @property(nonatomic,strong)NSString *name;
 @property(nonatomic,assign)NSInteger age;
+@property(nonatomic,strong)NSString *imageUrl;
+@property(nonatomic,strong)NSString *score;
 
 @end

@@ -7,12 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import "Person.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    Person *person = [[Person alloc] init];
+    //普通赋值
+    person.name = @"admin";
+    person.age = 12;
+    //setter方法
+    [person  setName:@"ad"];
+    //KVC
+    [person setValue:@"admins" forKey:@"name"];
+    
+    
+    NSLog(@"%@",person.name);
+    
+    
+    
+    
     return YES;
 }
 							
