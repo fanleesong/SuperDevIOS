@@ -31,7 +31,7 @@
     
     NSLog(@"%@",[person name]);
     NSLog(@"%@",[person valueForKey:@"name"]);
-    
+    NSLog(@"%@",[person name]);
     
     return YES;
 }
